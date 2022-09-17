@@ -1,4 +1,4 @@
-/**
+package main.java; /**
  * This file contains a few exercises to familiarize you with Java.
  * You should read this file from top-to-bottom. Any tasks you are to complete
  * are labelled with TODO
@@ -142,8 +142,8 @@ public class Basics {
          */
         StringBuilder ret = new StringBuilder();
         String[] array_of_words = to_split.split(" ");
-        for (int i = 0; i = array_of_words.length - 1; i++) {
-            ret.append(array_of_words[i][0]);
+        for (String word : array_of_words) {
+            ret.append(word.charAt(0));
         }
 
         return ret.toString();
