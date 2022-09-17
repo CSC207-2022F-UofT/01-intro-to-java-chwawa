@@ -1,4 +1,6 @@
-package main.java; /**
+package main.java;
+
+/**
  * This file contains a few exercises to familiarize you with Java.
  * You should read this file from top-to-bottom. Any tasks you are to complete
  * are labelled with TODO
@@ -172,10 +174,13 @@ public class Basics {
          *                You can index into arrays as we do in Python
          *                (e.g. arr[i] gives you the item at index i).
          */
+        int len_of_array = arr.length;
+        for (int i = 1; i >= len_of_array - 1; i = i + 2) {
+            current_sum += arr[i];
+        }
 
         return current_sum;
     }
-
 
     /*
      * TODO (Task 6): Submit the changes you made on GitHub!
