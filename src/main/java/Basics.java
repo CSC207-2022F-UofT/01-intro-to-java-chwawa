@@ -141,8 +141,10 @@ public class Basics {
          *                you may use them if you wish.
          */
         StringBuilder ret = new StringBuilder();
-
-        // Fill in the rest of the body here
+        String[] array_of_words = to_split.split(" ");
+        for (int i = 0; i = array_of_words.length - 1; i++) {
+            ret.append(array_of_words[i][0])
+        }
 
         return ret.toString();
     }
