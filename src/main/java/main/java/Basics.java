@@ -45,7 +45,7 @@ public class Basics {
         /* TODO (Task 1): Write a line of code below that prints the string
          *                Hello World!
          */
-        System.out.print("Hello World!");
+        System.out.println("Hello World!");
 
         /* 4. In Python, we could declare variables using a simple assignment
          *    statement. For example:
@@ -174,8 +174,7 @@ public class Basics {
          *                You can index into arrays as we do in Python
          *                (e.g. arr[i] gives you the item at index i).
          */
-        int len_of_array = arr.length;
-        for (int i = 1; i >= len_of_array - 1; i = i + 2) {
+        for (int i = 1; i <= arr.length - 1; i = i + 2) {
             current_sum += arr[i];
         }
 
