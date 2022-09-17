@@ -1,4 +1,5 @@
 package main.java;
+
 /**
  * This file contains a few exercises to familiarize you with Java.
  * You should read this file from top-to-bottom. Any tasks you are to complete
@@ -58,6 +59,10 @@ public class Basics {
          *    (Relevant reading: 1.2. Variables and Types)
          */
 
+        /*
+         * TODO (Task 2): Create a variable named my_variable and assign it the
+         *                value 100.
+         */
         int my_variable = 100;
 
         /* Do not remove the line below: if you did task 2 correctly, then
@@ -94,9 +99,10 @@ public class Basics {
          * Current count: 1
          * Current count: 0
          */
-        for (int i = 0; i <= 10; i++) {
-            System.out.print("Current count: " + i);
+        for (int i = 10; i >= 0; i--) {
+            System.out.println("Current count: " + i);
         }
+
     }
 
     /**
@@ -175,6 +181,7 @@ public class Basics {
 
         return current_sum;
     }
+
 
     /*
      * TODO (Task 6): Submit the changes you made on GitHub!
